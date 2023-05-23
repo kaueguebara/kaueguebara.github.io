@@ -7,3 +7,10 @@
     color: #3EAAE9;    
     text-shadow: 4px 4px 2px #0a86c0;
 }
+
+.title.-second {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+    padding-top: 50px;
+}
