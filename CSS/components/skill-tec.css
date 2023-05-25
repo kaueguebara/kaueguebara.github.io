@@ -1,5 +1,6 @@
 .skill-tec {
     display: flex;
+    align-items: center;
     font-family: 'press start 2P', sans-serif;
     color: #fff;
     font-size: 25px;
