@@ -4,9 +4,17 @@
     background-color: aqua;
     width: 250px;
     height: 250px;
-    box-shadow: 10px 10px 0px #000;
+    box-shadow: 10px 10px 0px #fff;
 }
 
 .card-project.-blue {
     background-color: #4c5b84;
+}
+
+.section.-bgBlack {
+    background-color: #000;
+}
+
+.section.-bdFirst {
+    border-color: #054d6e;
 }
