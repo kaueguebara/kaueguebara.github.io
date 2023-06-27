@@ -3,7 +3,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    border-bottom  : 10px solid #054d6e;
+    border-bottom: 10px solid #054d6e;
     padding: 10px 20px;
 }
-
