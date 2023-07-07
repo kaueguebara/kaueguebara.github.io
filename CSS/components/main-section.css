@@ -12,3 +12,8 @@
 .main-section.-bgBlack {
     background-color: black;
 }
+
+
+.main-section.-bdBlack {
+    border-color: #000;
+}
