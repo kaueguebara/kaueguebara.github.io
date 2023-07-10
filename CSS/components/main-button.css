@@ -11,3 +11,8 @@
 .main-button:hover {
     transform: scale(0.98);
 }
+
+.main-button.-full {
+    width: 100%;
+    box-shadow: 0;
+}
