@@ -14,5 +14,5 @@
 
 .main-button.-full {
     width: 100%;
-    box-shadow: 0;
+    box-shadow: 6px 6px 2px #000000;
 }
