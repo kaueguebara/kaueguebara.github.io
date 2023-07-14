@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="CSS/components/main-subtitle.css">
     <link rel="stylesheet" href="CSS/components/main-box.css">
     <link rel="stylesheet" href="CSS/components/main-action.css">
-    <link rel="stylesheet" href="CSS/components/header.css">
+    <link rel="stylesheet" href="CSS/components/main-header.css">
+    <link rel="stylesheet" href="CSS/components/icon-menu.css">
     <link rel="stylesheet" href="CSS/components/main-banner.css">
     <link rel="stylesheet" href="CSS/components/main-section.css">
     <link rel="stylesheet" href="CSS/components/skill-tec.css">
@@ -38,10 +39,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="main-header">
         <h1>Kauê <br> RG</h1>
 
-        <nav>
+        <a href="#menu" class="icon-menu">Abrir Menu</a>
+
+        <nav id="menu" class="menu">
             <a class="main-action" href="" lang="eng">Skills</a>
             <a class="main-action" href="">Projetos</a>
             <a class="main-action" href="">Sobre</a>
@@ -206,13 +209,13 @@
         <legend class="main-title -second">Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text">
+        <input class="main-input" id="name" type="text" required>
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+        <input class="main-input" id="email" type="email" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
+        <textarea class="main-input -textarea" id="message" required></textarea>
 
         <button class="main-button -full" type="submit">Enviar</button>
     </form>
