@@ -1,0 +1,12 @@
+.icon-close {
+    font-family: 'Press start 2P';
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+
+    transition: transform 100ms linear;
+}
+
+.icon-close:hover {
+    transform: scale(1.2);
+}
